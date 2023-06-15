@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  -moz-window-dragging: no-drag;
+  -webkit-user-drag: none;
+}
