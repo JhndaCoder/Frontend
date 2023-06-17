@@ -1,9 +1,84 @@
+/* ==== Varaibles ==== */
+
+:root {
+  --darkBlue: #041562;
+  --blue: #11468F;
+  --red: #DA1212;
+  --gray: #EEEEEE;
+  --font: 'Inter', sans-serif;
+}
+
+/* ==== Global Styles ==== */
+
 * {
   margin: 0;
   padding: 0;
 }
 
+
 img {
   -moz-window-dragging: no-drag;
   -webkit-user-drag: none;
+}
+
+/* ==== Atomic Classes ==== */
+
+.bg-red {
+  background: var(--red);
+}
+
+.bg-blue {
+  background: var(--blue);
+}
+
+.bg-gray {
+  background: var(--gray);
+}
+
+.bg-darkblue {
+  background: var(--darkBlue);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-darkblue {
+  color: var(--darkBlue);
+}
+
+.title {
+  font-family: var(--font);
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: var(--font);
+  font-weight: 500;
+}
+
+.text {
+  font-family: var(--font);
+  font-weight: 300;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
