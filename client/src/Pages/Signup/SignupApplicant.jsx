@@ -1,14 +1,14 @@
-import React from "react";
-import Form from "../../Components/Header/Form/Form";
-import "./Signup.css";
+import React from 'react';
+import Form from './../../Components/Form/Form';
+import './Signup.css';
 
-const fields = ["Name", "Phone", "Email Id", "Roll No", "Address", "Password"];
-const title = "Sign up as Applicant";
-const btnValue = "Sign up";
+const fields = ['Name', 'Phone', 'Email Id', 'Roll No', 'Address', 'Password'];
+const title = 'Sign up as Applicant';
+const btnValue = 'Sign up';
 
 const Signup = () => {
   return (
-    <div className='form-container'>
+    <div className="form-container">
       <Form fields={fields} title={title} btnValue={btnValue} />
     </div>
   );
