@@ -12,4 +12,12 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
+  extends: ["prettier"],
+  plugins: ["prettier"],
+  rules: {
+    "prettier/prettier": "error",
+    "linebreak-style": ["error", "unix"],
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+  },
 }
