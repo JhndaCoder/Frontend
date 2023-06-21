@@ -1,15 +1,17 @@
 import {Fragment} from 'react';
+import tiet_logo from './../../assets/tiet_logo.svg';
+import './Header.css';
 
 const Header = () => {
   return (
     <Fragment>
       <nav>
-        <ul>
-          <div className="branding">
-            <img src="" alt="" />
-            <h1>TIET Internship Portal</h1>
+        <ul className="flex">
+          <div className="branding flex">
+            <img src={tiet_logo} alt="Thapar Logo" />
+            <h1 className="title">TIET Internship Portal</h1>
           </div>
-          <div className="nav-links">
+          <div className="nav-links text-red title flex">
             <li>log in</li>
             <li>sign up</li>
           </div>
