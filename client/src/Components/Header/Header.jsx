@@ -8,7 +8,7 @@ const Header = () => {
       <nav>
         <ul className="flex">
           <div className="branding flex">
-            {/* <img src={tiet_logo} alt="Thapar Logo" /> */}
+            <img src={tiet_logo} alt="Thapar Logo" />
             <h1 className="title">TIET Internship Portal</h1>
           </div>
           <div className="nav-links text-red title flex">
