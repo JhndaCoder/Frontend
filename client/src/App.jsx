@@ -1,9 +1,10 @@
 import {Fragment} from 'react';
+import Home from './Pages/Home/Home';
 
 const App = () => {
   return (
     <Fragment>
-      <h1 className="title">Placement Portal</h1>
+      <Home />
     </Fragment>
   );
 };
