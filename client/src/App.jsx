@@ -18,7 +18,7 @@ const App = () => {
       {/* <SignupApplicant /> */}
       {/* <Home /> */}
       {/* <Details /> */}
-      {/* <Calendar /> */}
+      <Calendar />
       {/* <Messaging /> */}
     </Fragment>
   );
