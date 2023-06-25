@@ -1,10 +1,12 @@
 import {Fragment} from 'react';
 import Login from '../src/Pages/Login/Login';
-// import SignupApplicant from './Pages/Signup/SignupApplicant';
+import SignupApplicant from './Pages/Signup/SignupApplicant';
 import Home from './Pages/Home/Home';
 import SideBar from './Components/SideBar/SideBar';
 import DetailsCard from './Components/DetailsCard/DetailsCard';
 import Details from './Pages/Details/Details';
+import Calendar from './Pages/Calendar/Calendar';
+import Messaging from './Pages/Messaging/Messaging';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       {/* <SignupApplicant /> */}
       {/* <Home /> */}
       {/* <Details /> */}
+      {/* <Calendar /> */}
+      {/* <Messaging /> */}
     </Fragment>
   );
 };

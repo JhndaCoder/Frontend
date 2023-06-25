@@ -1,0 +1,57 @@
+#calendar {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--gray);
+    align-items: flex-start;
+    background: #041562;
+    background-image: url('../../assets/homeBg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#calendar header {
+    /* background: black; */
+    padding: 1rem;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    margin: 15vh auto;
+}
+
+#calendar header .dropdown {
+    width: 85%;
+    background: var(--red) !important;
+    margin: 0 auto;
+    font-family: var(--font);
+    text-transform: uppercase;
+}
+
+.Dropdown-control {
+    background: var(--gray);
+}
+
+.Dropdown-option {
+    background: var(--gray);
+}
+
+.Dropdown-option.is-selected {
+    background: var(--blue) !important;
+    color: white;
+}
+
+.cal {
+    margin: 0 auto;
+}
+
+.calendarr {
+    width: 80vw;
+    background: var(--gray);
+    font-family: var(--font);
+    border-radius: 10px;
+}

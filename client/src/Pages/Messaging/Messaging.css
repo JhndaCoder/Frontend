@@ -1,0 +1,49 @@
+#messaging {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #041562;
+    background-image: url('../../assets/homeBg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.messageWrapper {
+    background: var(--gray);
+    margin: auto;
+    height: 70vh;
+    width: 60vw;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.messageWrapper h4 {
+    color: red;
+}
+
+.receiver {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.receiver .dropdown {
+    width: 80%;
+    margin: 0 auto;
+}
+
+textarea {
+    resize: none;
+    width: 90% !important;
+    height: 70% !important;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background: var(--gray);
+    outline: none !important;
+    outline: 2px solid gray;
+    padding: 1rem;
+    font-size: 1rem;
+}

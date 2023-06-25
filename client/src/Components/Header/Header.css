@@ -8,6 +8,9 @@
      margin-top: 1rem;
  }
 
+ nav {
+     position: fixed;
+ }
 
  nav ul .branding img {
      height: 1rem;
