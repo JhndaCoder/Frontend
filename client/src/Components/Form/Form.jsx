@@ -1,6 +1,7 @@
 import React from "react";
 import "./Form.css";
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
 
 const Form = ({ fields, title, children, btnValue }) => {
   const {
@@ -10,7 +11,12 @@ const Form = ({ fields, title, children, btnValue }) => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const navigate = useNavigate();
+
+  const onSubmit = (data) => {
+    console.log(data);
+    navigate("/features");
+  };
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className='flex-col bg-blue'>

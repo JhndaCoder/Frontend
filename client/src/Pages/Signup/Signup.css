@@ -1,8 +1,51 @@
-.form-container {
+.signup-form-container {
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   font-family: var(--font);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(4, 21, 98, 1);
+  background-image: url("../../assets/homeBg.svg");
+}
+
+.signup-form-container a {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.signup-form-container a:nth-child(1) {
+  justify-content: flex-end;
+}
+
+.signup-form-container a:nth-child(2) {
+  justify-content: center;
+}
+
+.signup-form-container a:nth-child(3) {
+  justify-content: flex-start;
+}
+
+.signup-form-container a .box {
+  background-color: rgba(218, 18, 18, 1);
+  width: 276px;
+  height: 226px;
+  border-radius: 60px;
+  border: 10px solid rgba(217, 217, 217, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form-container a .box h3 {
+  top: 100px;
+  left: 100px;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  text-align: center;
 }
