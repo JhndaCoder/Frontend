@@ -1,0 +1,17 @@
+.box {
+  width: 215px;
+  height: 103px;
+  border-radius: 10px;
+  border: 5px solid rgba(4, 21, 98, 1);
+  background-color: rgba(217, 217, 217, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 20px;
+}
+
+.box h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgba(4, 21, 98, 1);
+}
