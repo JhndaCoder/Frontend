@@ -1,0 +1,19 @@
+.detailsContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background: #041562;
+    background-image: url('../../assets/detailsBg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.detailsCardsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+    width: 70vw;
+}

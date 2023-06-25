@@ -1,0 +1,43 @@
+.cardComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 0.25rem;
+    background: var(--darkBlue);
+    margin: 0 0.33rem;
+}
+
+.detailsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--darkBlue);
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.detailsCard img {
+    width: 5rem;
+    height: 5rem;
+    background: gray;
+    border-radius: 10px;
+}
+
+.cardComponent button {
+    border-radius: 10px;
+    background: var(--red);
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.cardComponent:nth-child(2n) button {
+    background: var(--gray);
+    color: var(--red);
+}
